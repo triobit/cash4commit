@@ -1,2 +1,2 @@
 # cash4commit
-Bitcoin Cash tips for developers
+Self-hosted app for giving Bitcoin Cash tips to developers.
