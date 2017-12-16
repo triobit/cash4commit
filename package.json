@@ -1,0 +1,29 @@
+{
+  "name": "cash4commit",
+  "version": "1.0.0",
+  "description": "Bitcoin Cash tips for developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armata/cash4commit.git"
+  },
+  "keywords": [
+    "Bitcoin",
+    "tips",
+    "cryptocurrency",
+    "GitHub"
+  ],
+  "author": "Sebastian Malek <malek@triobit.net>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/armata/cash4commit/issues"
+  },
+  "homepage": "https://github.com/armata/cash4commit#readme",
+  "dependencies": {
+    "config": "^1.28.1",
+    "express": "^4.16.2"
+  }
+}
