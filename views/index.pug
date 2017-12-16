@@ -3,7 +3,8 @@ html
     title #{organization.name} - Cash4Commit
   body
     h1 Cash4Commit
-    h2= organization.name
+    h2
+      a(href=organization.url)= organization.name 
     h3 Donate to #{organization.address}
     hr
     h2 Recent tips
