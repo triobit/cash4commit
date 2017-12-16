@@ -1,5 +1,27 @@
 html
   head
-    title= Cash4Commit
+    title #{organization.name} - Cash4Commit
   body
-    h1 hello there!
+    h1 Cash4Commit
+    h2= organization.name
+    h3 Donate to #{organization.address}
+    hr
+    h2 Recent tips
+    table
+      thead
+        tr
+          th Author
+          th Description
+          th Commit
+          th Amount (USD)
+      tbody
+        tr
+          td leaf
+          td leafy description
+          td abcd1234
+          td 1$
+    hr
+    h2 Repositories
+    each repository in repositories
+      p
+        a(href=repository.url) #{repository.url}
